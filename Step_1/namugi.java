@@ -9,7 +9,9 @@ public class namugi {
         int c = in.nextInt();
 
         System.out.println((a+b)%c);
-        //System.out.println((a%c)+(b%c);
+        System.out.println(((a%c)+(b%c))%c);
+        System.out.println((a*b)%c);
+        System.out.println(((a%c)*(b%c))%c);
         in.close();
     }
 }
